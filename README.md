@@ -1,8 +1,8 @@
-# Your Project Title
+# Blogology
 
 ## Description 
 
-
+A tech blogging site for people to state opinion on recent technology. 
 
 
 ## Table of Contents (Optional)

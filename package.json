@@ -1,0 +1,31 @@
+{
+  "name": "blogology",
+  "version": "1.0.0",
+  "description": "A tech blogging site for people to state opinion on recent technology.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Winkler102/blogology.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Winkler102/blogology/issues"
+  },
+  "homepage": "https://github.com/Winkler102/blogology#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "jest": "^27.0.4",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
