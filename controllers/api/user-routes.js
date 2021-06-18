@@ -87,9 +87,11 @@ router.post('/login', (req, res) => {
             req.session.user_id = dbUserData.id;
             req.session.username = dbUserData.username;
             req.session.loggedIn = true;
-
+            //seconds, minutes, hours, days the number on the right determines number of x
+            req.session.cookie.maxAge = 1000 * (60 * 1) * (60 * 3);
             res.json({ user: dbUserData, message: 'You are now logged in!' });
         });
+
     });
 });
 
