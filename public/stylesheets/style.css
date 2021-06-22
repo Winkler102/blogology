@@ -150,3 +150,28 @@ main {
 .password input {
     width: 100%;
 }
+
+.signup-form {
+    margin: 15% 30%;
+    align-self: center;
+    vertical-align: middle; 
+    background-color: white;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.black {
+    align-self: center;
+    vertical-align: middle; 
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    padding-left: 45%;
+}
