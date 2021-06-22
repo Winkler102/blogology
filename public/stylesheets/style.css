@@ -99,3 +99,54 @@ main {
 .comment-body {
     padding-bottom: 35px;
 }
+
+.login-form {
+    margin: 15% 30%;
+    align-self: center;
+    vertical-align: middle; 
+    background-color: white;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email {
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email label {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.email input {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.password {
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.password label {
+    width: 355.2px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.password input {
+    width: 100%;
+}
