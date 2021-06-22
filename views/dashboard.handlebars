@@ -1,21 +1,15 @@
 <section>
-    <a href="/dashboard/create">
+    <a href="/dashboard/create" class="createPost">
         <h2>Create New Post</h2>
     </a>
 </section>
 
 {{#if posts.length}}
-<section>
+<section class="dashPost">
     <h2>Your Posts</h2>
-    <ol>
-        {{#each posts as |post|}}
-        <li>
-            {{> small-post post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
-        </li>
-        {{/each}}
-    </ol>
+    {{#each posts as |post|}}
+    {{> small-post post}}
+    <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+    {{/each}}
 </section>
 {{/if}}
-
-<script src="/javascript/add-post.js"></script>

@@ -9,6 +9,11 @@ a {
     color: white;
 }
 
+textarea {
+    border: solid;
+    width: 100%;
+}
+
 button {
     background:  none;
     border: none;
@@ -44,8 +49,32 @@ main {
 
 .smallPost {
     margin-bottom: 20px;
+    margin-top: 25px;
 }
 
 .navSpace {
     margin: 0 15px;
+}
+
+.dashPost h2 {
+    margin: 15px;
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    width: 250px;
+}
+
+.createPost h2 {
+    margin: 0 50px;
+    background-color: black;
+    width: 200px;
+    border: outset 2px black;
+    text-align: center;
+}
+
+.createPost h2:hover {
+    border: inset 2px black;
+}
+
+.dashPost a{
+    margin: 0;
 }
