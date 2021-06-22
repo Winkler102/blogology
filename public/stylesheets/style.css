@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #a9a9a9;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background:  none;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    border-bottom: black 5px;
+}
+
+main {
+    margin: 0 100px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.title a {
+    color: black;
+}
+
+.smallPostText  {
+    overflow: hidden;
+    height: 35px;
+}
+
+.smallPost {
+    margin-bottom: 20px;
+}
+
+.navSpace {
+    margin: 0 15px;
+}

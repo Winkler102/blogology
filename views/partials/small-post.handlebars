@@ -1,14 +1,11 @@
-<article class="post">
+<article class="smallPost">
     <div class="title">
         <a href="/post/{{id}}">
             <h3>{{title}}</h3>
         </a>
         by {{user.username}} on {{format_date created_at}}
     </div>
-    <div class="post">
+    <div class="smallPostText">
         {{text}}
-    </div>
-    <div class="meta">
-        <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
     </div>
 </article>
